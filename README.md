@@ -305,10 +305,6 @@ La opción **Todos** puede tardar bastante cuando la lista es extensa. Es recome
 
 El archivo CSV se descarga en el equipo local mediante las APIs estándar `Blob`, `URL.createObjectURL()` y un enlace temporal. El script no envía los datos a un servidor propio ni realiza solicitudes de red adicionales.
 
-## Privacidad y uso responsable
-
-Los nombres y teléfonos de los contactos son datos personales. Utiliza la extensión únicamente con cuentas, contactos y finalidades para las que tengas autorización. Conserva el CSV de forma segura, evita compartirlo públicamente y elimínalo cuando ya no sea necesario.
-
 ## Desarrollo y mantenimiento
 
 La extensión no requiere instalación de dependencias. Para modificarla, edita `content.js`, guarda los cambios, recarga la extensión desde `chrome://extensions` y actualiza WhatsApp Web.
@@ -322,9 +318,3 @@ Cuando se realicen cambios en los selectores, conviene probar en este orden:
 5. Probar con un contacto cuyo nombre no esté registrado.
 6. Confirmar que el teléfono se obtiene del panel lateral correcto.
 7. Probar finalmente con un límite mayor.
-
-## Referencias
-
-[1]: https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world "Hello World extension: cargar y recargar una extensión desempaquetada"
-[2]: https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3 "Manifest V3: documentación oficial de Chrome"
-[3]: https://developer.chrome.com/docs/extensions/reference/manifest "Manifest file format: documentación oficial de Chrome"
