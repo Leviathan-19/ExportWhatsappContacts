@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Contacts Exporter",
+  "version": "1.0",
+  "description": "Exporta tus contactos de WhatsApp Web a CSV",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "WhatsApp Contacts Exporter"
+  }
+}

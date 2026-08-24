@@ -1,0 +1,2 @@
+npm install playwright
+npm install chromium
